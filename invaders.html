@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <style>
+    body{
+        position:relative;
+        width:100vw;
+        height:100vh;
+    }
+
+    h1{
+        text-align:center;
+    }
+
+    h3{
+        background:red;
+        border-radius:35%;
+        height:45px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        width:65px;
+        text-align:center;
+        left:35%;
+        top:80%;
+        position:absolute;
+    }
+
+    .controls{
+        display:flex;
+        align-items:center;
+        justify-content: space-evenly;
+        width:50%;
+        text-align:center;
+        left:35%;
+        top:80%;
+        position:absolute;
+    }
+    </style>
+
+    <title>Space Invaders</title>
+    
+</head>
+<body>
+    <h1>(Lousiest)Space Invaders,Ever!</h1>
+    <a href="index.html">Back to Particles</a>
+    <div class="controls">
+        <div class="left">LEFT</div>
+        <div class='shoot'>  <h3>Shoot!!</h3></div>
+        <div class="right">RIGHT</div>
+    </div>
+  
+
+    <script src="game/game.js"></script>
+    <script src="game/ship.js"></script>
+    <script src="game/bullet.js"></script>
+    <script src="game/enemy.js"></script>
+</body>
+</html>
